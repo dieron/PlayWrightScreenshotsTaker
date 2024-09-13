@@ -10,36 +10,7 @@ const float scale = 2.0f;
 TimeSpan screenshotDelay = TimeSpan.FromSeconds(0.1);
 
 Console.WriteLine("Hello, World!");
-Console.WriteLine("Here we aregoing to run a PlayRight session, open a browser in given resolution, and take a screenshot each time the content of a web page is changed.");
-
-/*
-// auto updating Playwright
-// Update Playwright
-var process = new Process
-{
-    StartInfo = new ProcessStartInfo
-    {
-        FileName = "dotnet",
-        Arguments = "tool run playwright install",
-        RedirectStandardOutput = true,
-        RedirectStandardError = true,
-        UseShellExecute = false,
-        CreateNoWindow = true
-    }
-};
-
-process.Start();
-process.WaitForExit();
-
-if (process.ExitCode != 0)
-{
-    Console.WriteLine("Failed to update Playwright:");
-    Console.WriteLine(process.StandardError.ReadToEnd());
-    return;
-}
-
-Console.WriteLine("Playwright updated successfully.");
-*/
+Console.WriteLine("Here we are going to run a PlayRight session, open a browser in a given resolution, and take a screenshot each time the content of a web page is changed.");
 
 var playwright = Playwright.CreateAsync().Result;
 
