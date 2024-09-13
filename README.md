@@ -1,4 +1,4 @@
-## Playright installation
+## Playwright installation
 
 To install Playwright into the project, run 
 ```console
