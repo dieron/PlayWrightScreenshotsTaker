@@ -13,3 +13,4 @@ bin/Debug/netX/playwright.ps1 install
 
 - Automatically download/update Playwright
 - Track page changes and subscribe to events again
+- Send notifications without using Console
